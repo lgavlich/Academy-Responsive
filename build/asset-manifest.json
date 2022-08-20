@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Academy-Responsive/static/css/main.48abf523.css",
+    "main.js": "/Academy-Responsive/static/js/main.424e20fd.js",
+    "static/js/787.0eb7ca75.chunk.js": "/Academy-Responsive/static/js/787.0eb7ca75.chunk.js",
+    "index.html": "/Academy-Responsive/index.html",
+    "main.48abf523.css.map": "/Academy-Responsive/static/css/main.48abf523.css.map",
+    "main.424e20fd.js.map": "/Academy-Responsive/static/js/main.424e20fd.js.map",
+    "787.0eb7ca75.chunk.js.map": "/Academy-Responsive/static/js/787.0eb7ca75.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.48abf523.css",
+    "static/js/main.424e20fd.js"
+  ]
+}
