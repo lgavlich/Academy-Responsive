@@ -1,17 +1,13 @@
-import {BrowserRouter} from 'react-router-dom';
-//import Header from './components/Header/Header';
+import { BrowserRouter } from 'react-router-dom';
 import Navigation from './components/Navigation/Navigation';
-import 'bootstrap/dist/css/bootstrap.min.css'
- 
-
+import 'antd/dist/css/antd.min.css';
 
 function App() {
   return (
     <>
-    <BrowserRouter>
-
-    <Navigation/>
-    </BrowserRouter>
+      <BrowserRouter>
+        <Navigation />
+      </BrowserRouter>
     </>
   );
 }

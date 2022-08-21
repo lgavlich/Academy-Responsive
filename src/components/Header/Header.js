@@ -8,15 +8,10 @@ function Header(){
         <>
         <header style={s.header}>
             <Container>
-              
                     <Card>
                         <Card.Img src ={portret}>
-
                         </Card.Img>
                     </Card>
-                    
-              
-
             </Container>
         </header>
         </>
