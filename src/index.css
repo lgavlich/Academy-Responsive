@@ -14,6 +14,6 @@ code {
  a , li{
   text-decoration: none;
  }
- ul{
+ ul, li{
   list-style: none;
  }

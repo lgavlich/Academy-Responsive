@@ -1,0 +1,23 @@
+.courses{
+    padding-top: 130px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #9497A5;
+    letter-spacing: 3px;
+
+}
+.txt{
+font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    letter-spacing: -3px;
+    color: #333333;
+    width: 330px;
+}
+.card{
+    background: #FFFFFF;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.0818614);
+    border-radius: 12px;
+    margin-left: 30px;
+}

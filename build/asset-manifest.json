@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Academy-Responsive/static/css/main.ddd362c8.css",
-    "main.js": "/Academy-Responsive/static/js/main.a25677c6.js",
+    "main.css": "/Academy-Responsive/static/css/main.f3fc2c08.css",
+    "main.js": "/Academy-Responsive/static/js/main.71511bdf.js",
     "static/js/787.0eb7ca75.chunk.js": "/Academy-Responsive/static/js/787.0eb7ca75.chunk.js",
     "static/media/portret.png": "/Academy-Responsive/static/media/portret.2906a3dfc0066e333423.png",
     "index.html": "/Academy-Responsive/index.html",
-    "main.ddd362c8.css.map": "/Academy-Responsive/static/css/main.ddd362c8.css.map",
-    "main.a25677c6.js.map": "/Academy-Responsive/static/js/main.a25677c6.js.map",
+    "main.f3fc2c08.css.map": "/Academy-Responsive/static/css/main.f3fc2c08.css.map",
+    "main.71511bdf.js.map": "/Academy-Responsive/static/js/main.71511bdf.js.map",
     "787.0eb7ca75.chunk.js.map": "/Academy-Responsive/static/js/787.0eb7ca75.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ddd362c8.css",
-    "static/js/main.a25677c6.js"
+    "static/css/main.f3fc2c08.css",
+    "static/js/main.71511bdf.js"
   ]
 }

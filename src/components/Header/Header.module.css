@@ -1,5 +1,6 @@
-.header{
-    background-color: #E3F0FF;;
+.header {
+    background-color: #E3F0FF;
+    ;
 }
 .image{
    padding-left: 135px;
@@ -8,7 +9,8 @@
 .container{
     display: flex;
     padding-top: 130px;
-    
+   
+        
 }
 .info{
     flex-basis: 50%;
