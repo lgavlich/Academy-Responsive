@@ -1,0 +1,19 @@
+.brand{
+    font-family: 'Sora';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+}
+.button{
+    color: #4A90E2;
+    background-color: #E3F0FF;
+    border: 1px solid rgba(74, 144, 226, 0.3);
+    border-radius: 6px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    box-sizing: border-box;
+    padding: 15px, 35px;
+    
+          
+    }
