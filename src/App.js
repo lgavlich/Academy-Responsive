@@ -1,17 +1,12 @@
-import {BrowserRouter} from 'react-router-dom';
-//import Header from './components/Header/Header';
-import Navigation from './components/Navigation/Navigation';
-import 'bootstrap/dist/css/bootstrap.min.css'
- 
-
+import { BrowserRouter } from 'react-router-dom';
+import Header from './components/Header/Header';
 
 function App() {
   return (
     <>
-    <BrowserRouter>
-
-    <Navigation/>
-    </BrowserRouter>
+      <BrowserRouter>
+        <Header/>
+            </BrowserRouter>
     </>
   );
 }

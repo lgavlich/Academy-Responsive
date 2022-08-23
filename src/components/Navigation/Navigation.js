@@ -1,27 +1,55 @@
-import React from 'react';
-import {Navbar,Nav,Container, Button} from 'react-bootstrap';
-import {Link} from 'react-router-dom';
+import React, {useState} from 'react';
+import { Navbar, Container, NavLink ,Nav} from "react-bootstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
+import s from './Navigation.module.css';
+import { Button } from 'antd'
+import "antd/dist/antd.css";
 
-function Navigation(){
-    return(
-        <>
-        <Navbar>
-            <Container>
-                <Navbar.Brand>ACA</Navbar.Brand>
-                <Nav className='mr-auto'>
-                   <Nav.Link><Link to='/'>Coursers</Link></Nav.Link>
-                   <Nav.Link><Link to='/about'>About</Link></Nav.Link>
-                   <Nav.Link><Link to='/services'>Services</Link></Nav.Link>
-                   <Nav.Link><Link to='/events'>Events</Link></Nav.Link>
-                   <Nav.Link><Link to='/blog'>Blog</Link></Nav.Link>
-                    </Nav>
-                    <Nav>
-                        <Button style ={{marginRight: 10}}>CONTACT</Button>
-                    </Nav>
-            </Container>
-        </Navbar>
-        </>
-    )
+
+export default function Navigation() {
+   const [setIsModalVisible] = useState(false);
+
+   const showModal = () => {
+     setIsModalVisible(true);
+   };
+
+  
+  
+  return (
+    <>
+      <Navbar>
+        <Container>
+          <Navbar.Brand className={s.brand}>ACA</Navbar.Brand>
+          <NavLink to="/coursec" className="link">
+            Courses
+          </NavLink>
+          <NavLink to="/about" className="link">
+            About
+          </NavLink>
+          <NavLink to="/services" className="link">
+            Services
+          </NavLink>
+          <NavLink to="/events" className="link">
+            Events
+          </NavLink>
+          <NavLink to="/blog" className="link">
+            Blog
+          </NavLink>
+          <Nav>
+            <Button
+              type="primary"
+              style={{ marginRight: 10 }}
+              onClick={showModal}
+            >
+              Sign in
+            </Button>
+            <Button type="primary" onClick={showModal}>
+              Logout
+            </Button>
+          </Nav>
+        </Container>
+      </Navbar>
+    </>
+  );
 }
 
-export default Navigation;
