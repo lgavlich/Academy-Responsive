@@ -4,7 +4,7 @@ import math from "../images/math.png";
 import chemistry from "../images/chemistry.png";
 import physycs from "../images/physycs.png";
 import informatics from "../images/informatics.png";
-import s from '../Navigation/Navigation.module.css'
+import s from './MainPage.module.css'
 
 export default function MainPage() {
   return (
@@ -12,6 +12,7 @@ export default function MainPage() {
       <Row>
         <Col>
           <Card
+            className={s.icon}
             style={{
               width: "8rem",
               height: "10rem",
@@ -28,6 +29,7 @@ export default function MainPage() {
         </Col>
         <Col>
           <Card
+            className={s.icon}
             style={{
               width: "8rem",
               height: "10rem",
@@ -44,6 +46,7 @@ export default function MainPage() {
         </Col>
         <Col>
           <Card
+            className={s.icon}
             style={{
               width: "8rem",
               height: "10rem",
@@ -60,6 +63,7 @@ export default function MainPage() {
         </Col>
         <Col>
           <Card
+            className={s.icon}
             style={{
               width: "8rem",
               height: "10rem",
@@ -75,7 +79,7 @@ export default function MainPage() {
           </Card>
         </Col>
       </Row>
-      <Button className={s.button}>Explore All</Button>
+      <Button style={{ marginTop: "3rem", marginLeft:"40rem"}}>Explore All</Button>
     </Container>
   );
 }

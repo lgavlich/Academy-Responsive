@@ -1,5 +1,4 @@
-import { Container } from 'react-bootstrap';
-import { Button } from 'antd';
+import { Container,Button } from "react-bootstrap";
 import s from './Header.module.css';
 import Navigation from '../Navigation/Navigation';
 import portret from '../images/portret.png';

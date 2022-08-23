@@ -1,10 +1,20 @@
-import React from 'react';
-import { Navbar, Container, NavLink } from "react-bootstrap";
+import React, {useState} from 'react';
+import { Navbar, Container, NavLink ,Nav} from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import s from './Navigation.module.css';
-import {Button} from 'antd'
+import { Button } from 'antd'
+import "antd/dist/antd.css";
 
-export default  function Navigation() {
+
+export default function Navigation() {
+   const [setIsModalVisible] = useState(false);
+
+   const showModal = () => {
+     setIsModalVisible(true);
+   };
+
+  
+  
   return (
     <>
       <Navbar>
@@ -25,7 +35,18 @@ export default  function Navigation() {
           <NavLink to="/blog" className="link">
             Blog
           </NavLink>
-          <Button className={s.button}>CONTACT</Button>
+          <Nav>
+            <Button
+              type="primary"
+              style={{ marginRight: 10 }}
+              onClick={showModal}
+            >
+              Sign in
+            </Button>
+            <Button type="primary" onClick={showModal}>
+              Logout
+            </Button>
+          </Nav>
         </Container>
       </Navbar>
     </>
