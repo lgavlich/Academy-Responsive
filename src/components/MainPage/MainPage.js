@@ -5,6 +5,7 @@ import chemistry from "../images/chemistry.png";
 import physycs from "../images/physycs.png";
 import informatics from "../images/informatics.png";
 import s from './MainPage.module.css'
+import Courses from "../Courses/Courses";
 
 export default function MainPage() {
   return (
@@ -79,7 +80,10 @@ export default function MainPage() {
           </Card>
         </Col>
       </Row>
-      <Button style={{ marginTop: "3rem", marginLeft:"40rem"}}>Explore All</Button>
+      <Button style={{ marginTop: "3rem", marginLeft: "40rem" }}>
+        Explore All
+      </Button>
+      <Courses />
     </Container>
   );
 }
