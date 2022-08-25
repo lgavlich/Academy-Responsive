@@ -1,19 +1,23 @@
 {
   "files": {
-    "main.css": "/Academy-Responsive/static/css/main.a490e85f.css",
-    "main.js": "/Academy-Responsive/static/js/main.9bbb471c.js",
+    "main.css": "/Academy-Responsive/static/css/main.cd8d9220.css",
+    "main.js": "/Academy-Responsive/static/js/main.baff74e5.js",
     "static/js/787.0eb7ca75.chunk.js": "/Academy-Responsive/static/js/787.0eb7ca75.chunk.js",
     "static/media/Bitmap.png": "/Academy-Responsive/static/media/Bitmap.a99f08b3a3f5ad7d0939.png",
     "static/media/portret.png": "/Academy-Responsive/static/media/portret.2906a3dfc0066e333423.png",
+    "static/media/math2.png": "/Academy-Responsive/static/media/math2.144def41d79880898ce5.png",
+    "static/media/inform.png": "/Academy-Responsive/static/media/inform.5d4636cd529e189ae77a.png",
+    "static/media/chem.png": "/Academy-Responsive/static/media/chem.95c33b9f6ecdf4f5b1c2.png",
     "static/media/students.png": "/Academy-Responsive/static/media/students.6d2b4e5ce83c82d72423.png",
     "static/media/lesson.png": "/Academy-Responsive/static/media/lesson.d959816645467a483721.png",
+    "static/media/math3.png": "/Academy-Responsive/static/media/math3.541c040203f4a92724b1.png",
     "index.html": "/Academy-Responsive/index.html",
-    "main.a490e85f.css.map": "/Academy-Responsive/static/css/main.a490e85f.css.map",
-    "main.9bbb471c.js.map": "/Academy-Responsive/static/js/main.9bbb471c.js.map",
+    "main.cd8d9220.css.map": "/Academy-Responsive/static/css/main.cd8d9220.css.map",
+    "main.baff74e5.js.map": "/Academy-Responsive/static/js/main.baff74e5.js.map",
     "787.0eb7ca75.chunk.js.map": "/Academy-Responsive/static/js/787.0eb7ca75.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a490e85f.css",
-    "static/js/main.9bbb471c.js"
+    "static/css/main.cd8d9220.css",
+    "static/js/main.baff74e5.js"
   ]
 }
